@@ -30,6 +30,11 @@ namespace test
             {
                 Console.WriteLine(item.ToString());
             }
+            Child1 child1 = new Child1();
+            child1.fun();
+            DieselEngine dieselEngine = new DieselEngine();
+            CarDep carDep = new CarDep();
+            carDep.start(dieselEngine);
 
             
         }
